@@ -2,7 +2,7 @@
 // Created by colab on 29/03/2020.
 //
 
-#include "../header/Game.h"
+#include "../include/Game.h"
 
 Game::Game() {
     // Initialize SDL
@@ -37,7 +37,6 @@ Game::Game() {
             }
         }
     }
-
 }
 
 void Game::Run() {

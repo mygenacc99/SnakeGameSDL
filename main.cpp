@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
-#include "./header/Game.h"
-
+#include "./include/Game.h"
 
 int main() {
     Game game;

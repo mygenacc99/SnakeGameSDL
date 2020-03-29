@@ -8,13 +8,13 @@ find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
 
 include_directories(
-        ${PROJECT_SOURCE_DIR}/header
+        ${PROJECT_SOURCE_DIR}/include
         ${PROJECT_SOURCE_DIR}/src
 )
 
 file(GLOB all_SRCS
-        "${PROJECT_SOURCE_DIR}/header/*.h"
-        "${PROJECT_SOURCE_DIR}/header/*.hpp"
+        "${PROJECT_SOURCE_DIR}/include/*.h"
+        "${PROJECT_SOURCE_DIR}/include/*.hpp"
         "${PROJECT_SOURCE_DIR}/src/*.cpp"
         "${PROJECT_SOURCE_DIR}/src/*.c"
         "${PROJECT_SOURCE_DIR}/main.cpp"

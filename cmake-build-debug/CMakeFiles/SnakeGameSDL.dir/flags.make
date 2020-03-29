@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/colab/CLionProjects/SnakeGameSDL/header -I/home/colab/CLionProjects/SnakeGameSDL/src -isystem /usr/include/SDL2 
+CXX_INCLUDES = -I/home/colab/CLionProjects/SnakeGameSDL/include -I/home/colab/CLionProjects/SnakeGameSDL/src -isystem /usr/include/SDL2 
 

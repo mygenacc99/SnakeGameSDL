@@ -34,7 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/header"/>
+					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/include"/>
 					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/src"/>
 					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -60,7 +60,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/header"/>
+					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/include"/>
 					<Add directory="/home/colab/CLionProjects/SnakeGameSDL/src"/>
 					<Add directory="/usr/include/SDL2"/>
 					<Add directory="/usr/include/c++/9"/>
@@ -90,13 +90,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/header/Game.h">
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Game.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/header/Header.h">
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Header.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/header/LTexture.h">
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/LTexture.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/main.cpp">

@@ -5,7 +5,7 @@
       <config projectName="SnakeGameSDL" targetName="SnakeGameSDL" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
@@ -54,17 +54,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmake/sdl2" />
       <recent name="$PROJECT_DIR$/header" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,6 +88,7 @@
       <workItem from="1585482315614" duration="4677000" />
       <workItem from="1585487318658" duration="727000" />
       <workItem from="1585492018552" duration="717000" />
+      <workItem from="1585494241988" duration="2184000" />
     </task>
     <servers />
   </component>
@@ -99,10 +100,10 @@
       <screen x="0" y="34" width="1600" height="866" />
     </state>
     <state x="295" y="30" width="1000" height="840" key="#Vim_Emulation/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585479280951" />
-    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585484838660">
+    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585496046196">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585484838660" />
+    <state x="254" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496046196" />
     <state x="2010" y="227" width="905" height="468" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585485790727">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -120,26 +121,26 @@
       <screen x="0" y="34" width="1600" height="866" />
     </state>
     <state x="475" y="123" width="640" height="688" key="FileChooserDialogImpl/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585484823582" />
-    <state width="1534" height="3" key="GridCell.Tab.0.bottom" timestamp="1585488045587">
+    <state width="1534" height="158" key="GridCell.Tab.0.bottom" timestamp="1585496076678">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="3" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488045587" />
-    <state width="1534" height="3" key="GridCell.Tab.0.center" timestamp="1585488045586">
+    <state width="1534" height="158" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
+    <state width="1534" height="158" key="GridCell.Tab.0.center" timestamp="1585496076678">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="3" key="GridCell.Tab.0.center/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488045586" />
-    <state width="1534" height="3" key="GridCell.Tab.0.left" timestamp="1585488045586">
+    <state width="1534" height="158" key="GridCell.Tab.0.center/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
+    <state width="1534" height="158" key="GridCell.Tab.0.left" timestamp="1585496076678">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="3" key="GridCell.Tab.0.left/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488045586" />
-    <state width="1534" height="3" key="GridCell.Tab.0.right" timestamp="1585488045587">
+    <state width="1534" height="158" key="GridCell.Tab.0.left/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
+    <state width="1534" height="158" key="GridCell.Tab.0.right" timestamp="1585496076678">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="3" key="GridCell.Tab.0.right/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488045587" />
-    <state x="0" y="34" width="1920" height="1046" key="SettingsEditor" timestamp="1585494308077">
+    <state width="1534" height="158" key="GridCell.Tab.0.right/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
+    <state x="0" y="34" width="1920" height="1046" key="SettingsEditor" timestamp="1585496004260">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="0" y="34" width="1600" height="866" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585494308077" />
+    <state x="0" y="34" width="1600" height="866" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496004260" />
     <state x="1600" y="34" width="1920" height="1046" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585483898780" />
     <state x="0" y="121" width="1598" height="665" key="StructurePopup" timestamp="1585488014011">
       <screen x="0" y="34" width="1600" height="866" />
@@ -154,9 +155,9 @@
       <screen x="0" y="34" width="1600" height="866" />
     </state>
     <state x="482" y="19" width="626" height="863" key="refactoring.ChangeSignatureDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585479148641" />
-    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup" timestamp="1585488026391">
+    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup" timestamp="1585498795813">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488026391" />
+    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585498795813" />
   </component>
 </project>

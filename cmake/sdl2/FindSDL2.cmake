@@ -129,7 +129,7 @@ Original FindSDL.cmake module:
   by using environmental variables and providing a more
   controlled/consistent search behavior.  Added new modifications to
   recognize OS X frameworks and additional Unix paths (FreeBSD, etc).
-  Also corrected the header search path to follow "proper" SDL
+  Also corrected the include search path to follow "proper" SDL
   guidelines.  Added a search for SDLmain which is needed by some
   platforms.  Added a search for threads which is needed by some
   platforms.  Added needed compile switches for MinGW.
@@ -139,7 +139,7 @@ People will have to manually change the cache value of SDL2_LIBRARY to
 override this selection or set the SDL2_PATH variable or the CMake
 environment CMAKE_INCLUDE_PATH to modify the search paths.
 
-Note that the header path has changed from SDL/SDL.h to just SDL.h
+Note that the include path has changed from SDL/SDL.h to just SDL.h
 This needed to change because "proper" SDL convention is #include
 "SDL.h", not <SDL/SDL.h>.  This is done for portability reasons
 because not all systems place things in SDL/ (see FreeBSD).
