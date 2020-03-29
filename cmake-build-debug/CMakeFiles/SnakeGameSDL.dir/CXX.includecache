@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/colab/CLionProjects/SnakeGameSDL/header/Game.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+bits/stdc++.h
+-
+Header.h
+/home/colab/CLionProjects/SnakeGameSDL/header/Header.h
+
+/home/colab/CLionProjects/SnakeGameSDL/header/Header.h
+
+/home/colab/CLionProjects/SnakeGameSDL/main.cpp
+bits/stdc++.h
+-
+./header/Game.h
+/home/colab/CLionProjects/SnakeGameSDL/header/Game.h
+
+/home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp
+../header/Game.h
+/home/colab/CLionProjects/SnakeGameSDL/header/Game.h
+
+/home/colab/CLionProjects/SnakeGameSDL/src/LTexture.cpp
+
