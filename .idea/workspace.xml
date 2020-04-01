@@ -12,17 +12,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="450b2d73-0e55-40ed-ad4c-98f18ad2d3bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitinogre" beforeDir="false" afterPath="$PROJECT_DIR$/.gitinogre" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Snake.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/SnakeCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Texture.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Snake.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakeCell.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SnakeGameSDL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SnakeGameSDL.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/LTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LTexture.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
@@ -43,27 +86,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.advertisement.text.overridden" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/cmake/sdl2" />
       <recent name="$PROJECT_DIR$/header" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -88,7 +135,17 @@
       <workItem from="1585482315614" duration="4677000" />
       <workItem from="1585487318658" duration="727000" />
       <workItem from="1585492018552" duration="717000" />
-      <workItem from="1585494241988" duration="2184000" />
+      <workItem from="1585494241988" duration="5365000" />
+      <workItem from="1585502395146" duration="88000" />
+      <workItem from="1585502485992" duration="18000" />
+      <workItem from="1585502506336" duration="88000" />
+      <workItem from="1585502596077" duration="18000" />
+      <workItem from="1585502616159" duration="170000" />
+      <workItem from="1585502788422" duration="3844000" />
+      <workItem from="1585565497759" duration="7901000" />
+      <workItem from="1585578784385" duration="9934000" />
+      <workItem from="1585629920869" duration="1502000" />
+      <workItem from="1585726588235" duration="1216000" />
     </task>
     <servers />
   </component>
@@ -96,6 +153,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="379" y="60" width="1000" height="840" key="#Notifications" timestamp="1585574924104">
+      <screen x="0" y="34" width="1600" height="866" />
+    </state>
+    <state x="379" y="60" width="1000" height="840" key="#Notifications/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585574924104" />
+    <state x="2055" y="137" width="1000" height="840" key="#Notifications/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585505702586" />
     <state x="295" y="30" width="1000" height="840" key="#Vim_Emulation" timestamp="1585479280951">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
@@ -121,43 +183,84 @@
       <screen x="0" y="34" width="1600" height="866" />
     </state>
     <state x="475" y="123" width="640" height="688" key="FileChooserDialogImpl/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585484823582" />
-    <state width="1534" height="158" key="GridCell.Tab.0.bottom" timestamp="1585496076678">
+    <state width="1534" height="196" key="GridCell.Tab.0.bottom" timestamp="1585727920962">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="158" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
-    <state width="1534" height="158" key="GridCell.Tab.0.center" timestamp="1585496076678">
+    <state width="1534" height="196" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585727920962" />
+    <state width="1854" height="157" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585644437070" />
+    <state width="1534" height="196" key="GridCell.Tab.0.center" timestamp="1585727920962">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="158" key="GridCell.Tab.0.center/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
-    <state width="1534" height="158" key="GridCell.Tab.0.left" timestamp="1585496076678">
+    <state width="1534" height="196" key="GridCell.Tab.0.center/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585727920962" />
+    <state width="1854" height="157" key="GridCell.Tab.0.center/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585644437069" />
+    <state width="1534" height="196" key="GridCell.Tab.0.left" timestamp="1585727920962">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="158" key="GridCell.Tab.0.left/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
-    <state width="1534" height="158" key="GridCell.Tab.0.right" timestamp="1585496076678">
+    <state width="1534" height="196" key="GridCell.Tab.0.left/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585727920962" />
+    <state width="1854" height="157" key="GridCell.Tab.0.left/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585644437069" />
+    <state width="1534" height="196" key="GridCell.Tab.0.right" timestamp="1585727920962">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state width="1534" height="158" key="GridCell.Tab.0.right/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496076678" />
-    <state x="0" y="34" width="1920" height="1046" key="SettingsEditor" timestamp="1585496004260">
+    <state width="1534" height="196" key="GridCell.Tab.0.right/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585727920962" />
+    <state width="1854" height="157" key="GridCell.Tab.0.right/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585644437069" />
+    <state width="1854" height="200" key="GridCell.Tab.1.bottom" timestamp="1585588791444">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1534" height="158" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585577145469" />
+    <state width="1854" height="200" key="GridCell.Tab.1.bottom/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585588791444" />
+    <state width="1854" height="200" key="GridCell.Tab.1.center" timestamp="1585588791443">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1534" height="158" key="GridCell.Tab.1.center/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585577145469" />
+    <state width="1854" height="200" key="GridCell.Tab.1.center/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585588791443" />
+    <state width="1854" height="200" key="GridCell.Tab.1.left" timestamp="1585588791443">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1534" height="158" key="GridCell.Tab.1.left/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585577145469" />
+    <state width="1854" height="200" key="GridCell.Tab.1.left/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585588791443" />
+    <state width="1854" height="200" key="GridCell.Tab.1.right" timestamp="1585588791444">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1534" height="158" key="GridCell.Tab.1.right/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585577145469" />
+    <state width="1854" height="200" key="GridCell.Tab.1.right/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585588791444" />
+    <state x="457" y="17" width="676" height="867" key="RollbackChangesDialog" timestamp="1585579661980">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="0" y="34" width="1600" height="866" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585496004260" />
-    <state x="1600" y="34" width="1920" height="1046" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585483898780" />
-    <state x="0" y="121" width="1598" height="665" key="StructurePopup" timestamp="1585488014011">
+    <state x="457" y="17" width="676" height="867" key="RollbackChangesDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585579661980" />
+    <state x="0" y="34" width="1920" height="1046" key="SettingsEditor" timestamp="1585726605191">
       <screen x="0" y="34" width="1600" height="866" />
+    </state>
+    <state x="0" y="34" width="1600" height="866" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585726605191" />
+    <state x="1600" y="34" width="1920" height="1046" key="SettingsEditor/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585502031411" />
+    <state x="1600" y="108" width="1918" height="830" key="StructurePopup" timestamp="1585586059821">
+      <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="121" width="1598" height="665" key="StructurePopup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585488014011" />
-    <state x="346" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1585494274202">
+    <state x="1600" y="108" width="1918" height="830" key="StructurePopup/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585586059821" />
+    <state x="345" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1585726596843">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="346" y="239" key="com.intellij.ide.util.TipDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585494274202" />
-    <state x="2015" y="256" key="com.intellij.ide.util.TipDialog/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585487318754" />
-    <state x="482" y="19" width="626" height="863" key="refactoring.ChangeSignatureDialog" timestamp="1585479148641">
+    <state x="346" y="239" key="com.intellij.ide.util.TipDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585578784328" />
+    <state x="345" y="191" key="com.intellij.ide.util.TipDialog/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585726596843" />
+    <state x="482" y="19" width="626" height="863" key="refactoring.ChangeSignatureDialog" timestamp="1585579689887">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="482" y="19" width="626" height="863" key="refactoring.ChangeSignatureDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585479148641" />
-    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup" timestamp="1585498795813">
+    <state x="482" y="19" width="626" height="863" key="refactoring.ChangeSignatureDialog/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585579689887" />
+    <state x="380" y="198" key="run.anything.popup" timestamp="1585575700642">
       <screen x="0" y="34" width="1600" height="866" />
     </state>
-    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585498795813" />
+    <state x="380" y="198" key="run.anything.popup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585575700642" />
+    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup" timestamp="1585579393925">
+      <screen x="0" y="34" width="1600" height="866" />
+    </state>
+    <state x="360" y="34" width="924" height="864" key="search.everywhere.popup/1600.0.1920.1080/0.34.1600.866@0.34.1600.866" timestamp="1585579393925" />
+    <state x="2032" y="0" width="1109" height="1078" key="search.everywhere.popup/1600.0.1920.1080/0.34.1600.866@1600.0.1920.1080" timestamp="1585503124054" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="renderer" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
