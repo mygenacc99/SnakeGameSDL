@@ -56,12 +56,13 @@ void Game::Run() {
             if (e.type == SDL_QUIT || e.key.keysym.sym == SDLK_q) {
                 quit = true;
             }
+            snake->handle(e);
         }
         bkgTexture->render(0,0);
-        snake->render();
         snake->move();
+        snake->render();
         SDL_RenderPresent( renderer);
-
+        SDL_RenderClear( renderer );
         frameTime = SDL_GetTicks() - frameStart;
 
         if (frameDelay > frameTime){

@@ -30,6 +30,8 @@ public:
     // Constructor
     Snake(SDL_Renderer* renderer, std::string path = "../media/snake.png");
 
+    // Handle the event
+    void handle(SDL_Event event);
     // Calculate position of snake after each frame
     void move();
 
