@@ -39,7 +39,7 @@ Game::Game() {
     bkgTexture = new Texture(renderer);
     bkgTexture->loadFromFile("../media/grass.jpg");
     snake = new Snake(renderer);
-
+    apple = new Apple(renderer);
 
 }
 
@@ -59,8 +59,13 @@ void Game::Run() {
             snake->handle(e);
         }
         bkgTexture->render(0,0);
-        snake->move();
+        if (snake->checkApple(apple) == false){
+            snake->move();
+        }
         snake->render();
+
+
+        apple->render();
         SDL_RenderPresent( renderer);
         SDL_RenderClear( renderer );
         frameTime = SDL_GetTicks() - frameStart;

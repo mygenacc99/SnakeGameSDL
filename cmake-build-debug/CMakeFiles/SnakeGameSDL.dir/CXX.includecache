@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../include/Apple.h
+Header.h
+../include/Header.h
+Texture.h
+../include/Texture.h
+time.h
+-
+
 ../include/Header.h
 SDL2/SDL.h
 -
@@ -21,6 +29,8 @@ SnakeCell.h
 ../include/SnakeCell.h
 Texture.h
 ../include/Texture.h
+Apple.h
+../include/Apple.h
 
 ../include/SnakeCell.h
 

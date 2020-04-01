@@ -13,23 +13,23 @@ Snake::Snake(SDL_Renderer* renderer, std::string path)
 
     snakeSpriteClips[0].x = 0;
     snakeSpriteClips[0].y = 0;
-    snakeSpriteClips[0].w = SPLENX;
-    snakeSpriteClips[0].h = SPLENY;
+    snakeSpriteClips[0].w = SPLEN;
+    snakeSpriteClips[0].h = SPLEN;
 
     for (int i = 1; i < 4; i++) {
-        snakeSpriteClips[i].x = snakeSpriteClips[i - 1].x + SPLENX;
+        snakeSpriteClips[i].x = snakeSpriteClips[i - 1].x + SPLEN;
         snakeSpriteClips[i].y = 0;
-        snakeSpriteClips[i].w = SPLENX;
-        snakeSpriteClips[i].h = SPLENY;
+        snakeSpriteClips[i].w = SPLEN;
+        snakeSpriteClips[i].h = SPLEN;
     }
 
-    SnakeCell tail = SnakeCell(-60, 0, STAIL, RIGHT);
+    SnakeCell tail = SnakeCell(-velocity, 0, STAIL, RIGHT);
     cells.push_back(tail);
     SnakeCell body = SnakeCell(0, 0, SBODY, RIGHT);
     cells.push_back(body);
-    SnakeCell body1 = SnakeCell(60, 0, SBODY, RIGHT);
+    SnakeCell body1 = SnakeCell(velocity, 0, SBODY, RIGHT);
     cells.push_back(body1);
-    SnakeCell head = SnakeCell(120, 0, SHEAD, RIGHT);
+    SnakeCell head = SnakeCell(2*velocity, 0, SHEAD, RIGHT);
     cells.push_back(head);
 }
 
@@ -147,4 +147,18 @@ void Snake::handle(SDL_Event event)
         }
         break;
     }
+}
+bool Snake::checkApple(Apple* apple) {
+    if(cells.back().posX == apple->posX && cells.back().posY == apple->posY){
+        apple->randomPos();
+
+        SnakeCell sc;
+        sc = cells[0];
+        this->move();
+        cells[0].state = SBODY;
+        cells.insert(cells.begin(), sc);
+
+        return true;
+    }
+    return false;
 }

@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Apple.o: src/Apple.cpp.o
+
+.PHONY : src/Apple.o
+
+# target to build an object file
+src/Apple.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Apple.cpp.o
+.PHONY : src/Apple.cpp.o
+
+src/Apple.i: src/Apple.cpp.i
+
+.PHONY : src/Apple.i
+
+# target to preprocess a source file
+src/Apple.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Apple.cpp.i
+.PHONY : src/Apple.cpp.i
+
+src/Apple.s: src/Apple.cpp.s
+
+.PHONY : src/Apple.s
+
+# target to generate assembly for a file
+src/Apple.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Apple.cpp.s
+.PHONY : src/Apple.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -270,6 +297,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Apple.o"
+	@echo "... src/Apple.i"
+	@echo "... src/Apple.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

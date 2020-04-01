@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/colab/CLionProjects/SnakeGameSDL/main.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/main.cpp.o"
+  "/home/colab/CLionProjects/SnakeGameSDL/src/Apple.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Apple.cpp.o"
   "/home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o"
   "/home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o"
   "/home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o"

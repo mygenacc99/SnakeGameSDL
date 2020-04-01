@@ -108,6 +108,12 @@
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/main.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Apple.cpp">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Apple.h">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>

@@ -8,9 +8,8 @@
 #include "Header.h"
 #include "SnakeCell.h"
 #include "Texture.h"
+#include "Apple.h"
 // Sprite's length
-#define SPLENX 60;
-#define SPLENY 60;
 
 enum SNAKESPRITE { STAIL = 0, SROUND = 1, SBODY = 2, SHEAD = 3 };
 
@@ -25,18 +24,22 @@ public:
 
     std::vector<SnakeCell> cells;
 
-    int velocity  = 60;
+    int velocity  = 30;
 
     // Constructor
     Snake(SDL_Renderer* renderer, std::string path = "../media/snake.png");
 
     // Handle the event
     void handle(SDL_Event event);
+
     // Calculate position of snake after each frame
     void move();
 
     // Render snake to screen
     void render();
+
+    bool checkApple(Apple* apple);
+
 };
 
 #endif // SNAKEGAMESDL_SNAKE_H

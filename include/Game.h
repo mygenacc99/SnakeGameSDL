@@ -8,7 +8,7 @@
 #include "Header.h"
 #include "Snake.h"
 #include "Texture.h"
-
+#include "Apple.h"
 class Game {
 public:
     Game();
@@ -22,10 +22,10 @@ private:
 
     Texture* bkgTexture = nullptr;
     Snake*   snake      = nullptr;
-
-    int FPS = 3;
-    int frameDelay = 1000/FPS;
-    bool quit = false;
+    Apple*   apple      = nullptr;
+    int      FPS        = 5;
+    int      frameDelay = 1000 / FPS;
+    bool     quit       = false;
 };
 
 #endif // SNAKEGAMESDL_GAME_H
