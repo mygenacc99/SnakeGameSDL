@@ -83,37 +83,67 @@ CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp -o CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.s
 
-CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o: CMakeFiles/SnakeGameSDL.dir/flags.make
-CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o: ../src/LTexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o -c /home/colab/CLionProjects/SnakeGameSDL/src/LTexture.cpp
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: CMakeFiles/SnakeGameSDL.dir/flags.make
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../src/Snake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o -c /home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp
 
-CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colab/CLionProjects/SnakeGameSDL/src/LTexture.cpp > CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.i
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp > CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.i
 
-CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colab/CLionProjects/SnakeGameSDL/src/LTexture.cpp -o CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.s
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp -o CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.s
+
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o: CMakeFiles/SnakeGameSDL.dir/flags.make
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o: ../src/SnakeCell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o -c /home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp
+
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp > CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.i
+
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp -o CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.s
+
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o: CMakeFiles/SnakeGameSDL.dir/flags.make
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o: ../src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o -c /home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp
+
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp > CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.i
+
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp -o CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.s
 
 # Object files for target SnakeGameSDL
 SnakeGameSDL_OBJECTS = \
 "CMakeFiles/SnakeGameSDL.dir/main.cpp.o" \
 "CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o" \
-"CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o"
+"CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o" \
+"CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o" \
+"CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o"
 
 # External object files for target SnakeGameSDL
 SnakeGameSDL_EXTERNAL_OBJECTS =
 
 SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/main.cpp.o
 SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o
-SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o
+SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o
+SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o
+SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o
 SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/build.make
 SnakeGameSDL: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 SnakeGameSDL: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 SnakeGameSDL: /usr/lib/x86_64-linux-gnu/libSDL2.so
 SnakeGameSDL: CMakeFiles/SnakeGameSDL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SnakeGameSDL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SnakeGameSDL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SnakeGameSDL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

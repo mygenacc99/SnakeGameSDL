@@ -96,7 +96,13 @@
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Header.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/LTexture.h">
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Snake.h">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/SnakeCell.h">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Texture.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/main.cpp">
@@ -105,7 +111,13 @@
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/LTexture.cpp">
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/CMakeLists.txt">

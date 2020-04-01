@@ -3,11 +3,28 @@
 
 CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../include/Game.h
 CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../include/Header.h
+CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../include/Snake.h
+CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../include/SnakeCell.h
+CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../include/Texture.h
 CMakeFiles/SnakeGameSDL.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../include/Game.h
 CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../include/Header.h
+CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../include/Snake.h
+CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../include/SnakeCell.h
+CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../include/Texture.h
 CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o: ../src/Game.cpp
 
-CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o: ../src/LTexture.cpp
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../include/Header.h
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../include/Snake.h
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../include/SnakeCell.h
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../include/Texture.h
+CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o: ../src/Snake.cpp
+
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o: ../include/SnakeCell.h
+CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o: ../src/SnakeCell.cpp
+
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o: ../include/Header.h
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o: ../include/Texture.h
+CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o: ../src/Texture.cpp
 

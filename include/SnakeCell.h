@@ -1,0 +1,8 @@
+//
+// Created by colab on 30/03/2020.
+//
+
+#ifndef SNAKEGAMESDL_SNAKECELL_H
+#define SNAKEGAMESDL_SNAKECELL_H
+
+#endif // SNAKEGAMESDL_SNAKECELL_H

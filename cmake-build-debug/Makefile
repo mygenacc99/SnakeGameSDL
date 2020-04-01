@@ -177,32 +177,86 @@ src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
-src/LTexture.o: src/LTexture.cpp.o
+src/Snake.o: src/Snake.cpp.o
 
-.PHONY : src/LTexture.o
+.PHONY : src/Snake.o
 
 # target to build an object file
-src/LTexture.cpp.o:
-	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.o
-.PHONY : src/LTexture.cpp.o
+src/Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o
+.PHONY : src/Snake.cpp.o
 
-src/LTexture.i: src/LTexture.cpp.i
+src/Snake.i: src/Snake.cpp.i
 
-.PHONY : src/LTexture.i
+.PHONY : src/Snake.i
 
 # target to preprocess a source file
-src/LTexture.cpp.i:
-	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.i
-.PHONY : src/LTexture.cpp.i
+src/Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.i
+.PHONY : src/Snake.cpp.i
 
-src/LTexture.s: src/LTexture.cpp.s
+src/Snake.s: src/Snake.cpp.s
 
-.PHONY : src/LTexture.s
+.PHONY : src/Snake.s
 
 # target to generate assembly for a file
-src/LTexture.cpp.s:
-	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/LTexture.cpp.s
-.PHONY : src/LTexture.cpp.s
+src/Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.s
+.PHONY : src/Snake.cpp.s
+
+src/SnakeCell.o: src/SnakeCell.cpp.o
+
+.PHONY : src/SnakeCell.o
+
+# target to build an object file
+src/SnakeCell.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o
+.PHONY : src/SnakeCell.cpp.o
+
+src/SnakeCell.i: src/SnakeCell.cpp.i
+
+.PHONY : src/SnakeCell.i
+
+# target to preprocess a source file
+src/SnakeCell.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.i
+.PHONY : src/SnakeCell.cpp.i
+
+src/SnakeCell.s: src/SnakeCell.cpp.s
+
+.PHONY : src/SnakeCell.s
+
+# target to generate assembly for a file
+src/SnakeCell.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.s
+.PHONY : src/SnakeCell.cpp.s
+
+src/Texture.o: src/Texture.cpp.o
+
+.PHONY : src/Texture.o
+
+# target to build an object file
+src/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o
+.PHONY : src/Texture.cpp.o
+
+src/Texture.i: src/Texture.cpp.i
+
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
 
 # Help Target
 help:
@@ -219,9 +273,15 @@ help:
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
-	@echo "... src/LTexture.o"
-	@echo "... src/LTexture.i"
-	@echo "... src/LTexture.s"
+	@echo "... src/Snake.o"
+	@echo "... src/Snake.i"
+	@echo "... src/Snake.s"
+	@echo "... src/SnakeCell.o"
+	@echo "... src/SnakeCell.i"
+	@echo "... src/SnakeCell.s"
+	@echo "... src/Texture.o"
+	@echo "... src/Texture.i"
+	@echo "... src/Texture.s"
 .PHONY : help
 
 
