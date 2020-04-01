@@ -59,13 +59,22 @@ void Game::Run() {
             snake->handle(e);
         }
         bkgTexture->render(0,0);
-        if (snake->checkApple(apple) == false){
+
+        if (snake->checkApple(apple)){
+            score++;
+        }
+        else
+        {
             snake->move();
         }
+        if (snake->checkSelfEat()){
+            quit = true;
+        }
+        apple->render();
         snake->render();
 
 
-        apple->render();
+
         SDL_RenderPresent( renderer);
         SDL_RenderClear( renderer );
         frameTime = SDL_GetTicks() - frameStart;
@@ -78,6 +87,7 @@ void Game::Run() {
 }
 
 Game::~Game() {
+    std::cout << "You got " << score << " apple" << (score > 1 ? "s" :"") << "!\n";
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     renderer = nullptr;
@@ -85,4 +95,5 @@ Game::~Game() {
 
     IMG_Quit();
     SDL_Quit();
+
 }

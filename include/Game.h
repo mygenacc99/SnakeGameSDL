@@ -5,10 +5,10 @@
 #ifndef SNAKEGAMESDL_GAME_H
 #define SNAKEGAMESDL_GAME_H
 
+#include "Apple.h"
 #include "Header.h"
 #include "Snake.h"
 #include "Texture.h"
-#include "Apple.h"
 class Game {
 public:
     Game();
@@ -23,6 +23,7 @@ private:
     Texture* bkgTexture = nullptr;
     Snake*   snake      = nullptr;
     Apple*   apple      = nullptr;
+    int      score      = 0;
     int      FPS        = 5;
     int      frameDelay = 1000 / FPS;
     bool     quit       = false;

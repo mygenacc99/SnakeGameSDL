@@ -8,6 +8,7 @@ CMakeFiles/SnakeGameSDL.dir/main.cpp.o
  /home/colab/CLionProjects/SnakeGameSDL/include/Snake.h
  /home/colab/CLionProjects/SnakeGameSDL/include/SnakeCell.h
  /home/colab/CLionProjects/SnakeGameSDL/include/Texture.h
+ /home/colab/CLionProjects/SnakeGameSDL/include/Util.h
  /home/colab/CLionProjects/SnakeGameSDL/main.cpp
 CMakeFiles/SnakeGameSDL.dir/src/Apple.cpp.o
  ../include/Apple.h
@@ -21,6 +22,7 @@ CMakeFiles/SnakeGameSDL.dir/src/Game.cpp.o
  /home/colab/CLionProjects/SnakeGameSDL/include/Snake.h
  /home/colab/CLionProjects/SnakeGameSDL/include/SnakeCell.h
  /home/colab/CLionProjects/SnakeGameSDL/include/Texture.h
+ /home/colab/CLionProjects/SnakeGameSDL/include/Util.h
  /home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp
 CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o
  ../include/Apple.h
@@ -28,6 +30,7 @@ CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o
  ../include/Snake.h
  ../include/SnakeCell.h
  ../include/Texture.h
+ ../include/Util.h
  /home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp
 CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o
  ../include/SnakeCell.h
@@ -36,3 +39,7 @@ CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o
  ../include/Header.h
  ../include/Texture.h
  /home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp
+CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.o
+ ../include/Header.h
+ ../include/Util.h
+ /home/colab/CLionProjects/SnakeGameSDL/src/Util.cpp

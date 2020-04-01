@@ -12,6 +12,7 @@ public:
     int angle;
     int roundAngle;
     explicit SnakeCell(int posX = 0, int posY = 0, int state = 0, int angle = 0);
+
 };
 
 #endif // SNAKEGAMESDL_SNAKECELL_H

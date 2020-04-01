@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o"
   "CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o"
   "CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o"
+  "CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.o"
   "SnakeGameSDL"
   "SnakeGameSDL.pdb"
 )

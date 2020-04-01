@@ -81,6 +81,21 @@ void Snake::move()
 
     // Set tail
     cells[0].state = STAIL;
+
+    if (cells.back().posX > SCREEN_WIDTH - SPLEN){
+        cells.back().posX = 0;
+    }
+    if (cells.back().posX < 0){
+        cells.back().posX = SCREEN_WIDTH - SPLEN;
+    }
+    if (cells.back().posY > SCREEN_HEIGHT - SPLEN){
+        cells.back().posY = 0;
+    }
+    if (cells.back().posY < 0){
+        cells.back().posY = SCREEN_HEIGHT - SPLEN;
+    }
+
+
 }
 
 void Snake::handle(SDL_Event event)
@@ -148,10 +163,12 @@ void Snake::handle(SDL_Event event)
         break;
     }
 }
-bool Snake::checkApple(Apple* apple) {
-    if(cells.back().posX == apple->posX && cells.back().posY == apple->posY){
-        apple->randomPos();
 
+bool Snake::checkApple(Apple* apple) {
+    SDL_Rect snakeHead = {cells.back().posX, cells.back().posY, SPLEN, SPLEN};
+    SDL_Rect ap = {apple->posX, apple->posY, SPLEN, SPLEN};
+    if(check_collision(snakeHead, ap) == true){
+        apple->randomPos();
         SnakeCell sc;
         sc = cells[0];
         this->move();
@@ -162,3 +179,10 @@ bool Snake::checkApple(Apple* apple) {
     }
     return false;
 }
+bool Snake::checkSelfEat() {
+    for (int i = 0; i < cells.size() - 1; i++){
+        if (cells[i].posX == cells.back().posX && cells[i].posY == cells.back().posY)
+            return true;
+    }
+}
+

@@ -4,7 +4,5 @@
 int main() {
     Game game;
     game.Run();
-    std::cout << "hello world";
-
     return 0;
 }

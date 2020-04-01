@@ -7,6 +7,7 @@
 
 #include "Header.h"
 #include "SnakeCell.h"
+#include "Util.h"
 #include "Texture.h"
 #include "Apple.h"
 // Sprite's length
@@ -39,6 +40,8 @@ public:
     void render();
 
     bool checkApple(Apple* apple);
+
+    bool checkSelfEat();
 
 };
 

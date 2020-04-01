@@ -285,6 +285,33 @@ src/Texture.cpp.s:
 	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.s
 .PHONY : src/Texture.cpp.s
 
+src/Util.o: src/Util.cpp.o
+
+.PHONY : src/Util.o
+
+# target to build an object file
+src/Util.cpp.o:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.o
+.PHONY : src/Util.cpp.o
+
+src/Util.i: src/Util.cpp.i
+
+.PHONY : src/Util.i
+
+# target to preprocess a source file
+src/Util.cpp.i:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.i
+.PHONY : src/Util.cpp.i
+
+src/Util.s: src/Util.cpp.s
+
+.PHONY : src/Util.s
+
+# target to generate assembly for a file
+src/Util.cpp.s:
+	$(MAKE) -f CMakeFiles/SnakeGameSDL.dir/build.make CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.s
+.PHONY : src/Util.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"
+	@echo "... src/Util.o"
+	@echo "... src/Util.i"
+	@echo "... src/Util.s"
 .PHONY : help
 
 

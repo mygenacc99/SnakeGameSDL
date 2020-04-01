@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/colab/CLionProjects/SnakeGameSDL/src/Snake.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Snake.cpp.o"
   "/home/colab/CLionProjects/SnakeGameSDL/src/SnakeCell.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/SnakeCell.cpp.o"
   "/home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Texture.cpp.o"
+  "/home/colab/CLionProjects/SnakeGameSDL/src/Util.cpp" "/home/colab/CLionProjects/SnakeGameSDL/cmake-build-debug/CMakeFiles/SnakeGameSDL.dir/src/Util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

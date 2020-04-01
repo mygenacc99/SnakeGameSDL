@@ -90,6 +90,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Apple.h">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Game.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
@@ -105,13 +108,13 @@
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Texture.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/include/Util.h">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/main.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Apple.cpp">
-			<Option target="SnakeGameSDL"/>
-		</Unit>
-		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Apple.h">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Game.cpp">
@@ -124,6 +127,9 @@
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Texture.cpp">
+			<Option target="SnakeGameSDL"/>
+		</Unit>
+		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/src/Util.cpp">
 			<Option target="SnakeGameSDL"/>
 		</Unit>
 		<Unit filename="/home/colab/CLionProjects/SnakeGameSDL/CMakeLists.txt">
